@@ -31,7 +31,7 @@ public class SanPhamDao {
 
         try {
             Object[] args = {sp_ten, sp_gia, sp_ngaycapnhat, sp_soluong, lsp_ma, nsx_ma, sp_hinhanh, sp_mota, sp_doituong, sp_ma};
-            db.execSQL(sql, args); // Thực hiện
+            db.execSQL(sql, args); // Thực hiện3333
             return true; // Cập nhật thành công
         } catch (Exception e) {
             e.printStackTrace();
@@ -166,6 +166,7 @@ public class SanPhamDao {
             db.close();
         }
         return null;
+
     }
 
 }
